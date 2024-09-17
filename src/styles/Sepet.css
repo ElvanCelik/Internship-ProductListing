@@ -1,0 +1,14 @@
+
+.sepet{
+    background-color:lightgray;
+    border: 1px,solid,black;
+    padding: 20px;
+    margin-top: 0px;
+    right: 0;
+    width: 400px;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    
+    
+}
