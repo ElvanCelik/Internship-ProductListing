@@ -1,0 +1,36 @@
+.card-sepeteEkle-button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.card-sepeteEkle-button:hover {
+    cursor: pointer;
+    background-color: #bab5b5;
+  }
+
+.card-detailPage-button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+    margin-right: 20px;
+
+}
+.card-detailPage-button:hover{
+    cursor: pointer;
+    background-color: #bab5b5;
+
+}

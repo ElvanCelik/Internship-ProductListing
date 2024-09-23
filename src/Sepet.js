@@ -2,13 +2,16 @@ import React from 'react';
 import './styles/Sepet.css';
 
 const Sepet = ({ sepet, sepeteEkle, sepettenCikar, urunuTamamenCikar, sepetiBosalt }) => {
+
   const sepetToplamFiyat = () => {
     return sepet.reduce((total, item) => total + item.price * item.miktar, 0);
+
   };
 
   return (
     <div className='sepet'>
       <h3>Sepet</h3>
+
       {sepet.length === 0 ? (
         <p>Sepetinizde ürün bulunmamaktadır.</p>
       ) : (
@@ -29,6 +32,7 @@ const Sepet = ({ sepet, sepeteEkle, sepettenCikar, urunuTamamenCikar, sepetiBosa
               </li>
             ))}
           </ul>
+          
           <div style={{ marginTop: '10px', fontWeight: 'bold' }}>
             Toplam: {sepetToplamFiyat()} TL
           </div>
